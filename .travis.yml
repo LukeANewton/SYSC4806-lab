@@ -1,0 +1,6 @@
+language: java
+deploy:
+  provider: heroku
+  api-key:
+    secure: 9d205856-22fe-4d69-aebf-e617488dc063
+  app: lippep-spring-boot-test
