@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: lab.ApplicationRunsTest
+Test set: lab.model.AddressBookTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.489 s - in lab.ApplicationRunsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in lab.model.AddressBookTest

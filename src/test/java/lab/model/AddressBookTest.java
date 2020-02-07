@@ -1,14 +1,14 @@
 package lab.model;
 
-import static org.junit.Assert.*;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AddressBookTest {
     private AddressBook book;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         book = new AddressBook();
     }
@@ -29,7 +29,7 @@ public class AddressBookTest {
     @Test
     public void testClearedAddressBook() {
         book.addBuddy(new BuddyInfo("name3", "location3", "phone3"));
-        assertTrue("", book.clear());
+        assertTrue( book.clear());
 
     }
 
