@@ -62,15 +62,10 @@ public class BuddyInfo {
 
     }
 
-    public String getGreeting() {
-        return "Hello";
-
-    }
-
     public String toString() {
-        return " Name: " + this.name +
-                "\n Address: " + this.address +
-                "\n Phone: " + this.phoneNumber;
+        return "name: " + this.name +
+                ",Address: " + this.address +
+                ",Phone: " + this.phoneNumber;
     }
 
     public Long getId() {

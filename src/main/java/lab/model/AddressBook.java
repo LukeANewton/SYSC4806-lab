@@ -10,7 +10,7 @@ import java.util.List;
 @Entity
 public class AddressBook {
     @Id
-    private int myId;
+    private int id;
     @OneToMany(cascade = CascadeType.PERSIST)
     private List<BuddyInfo> buddies;
 
@@ -71,11 +71,11 @@ public class AddressBook {
         out.close();
     }
 
-    public int getMyId() {
-        return myId;
+    public int getId() {
+        return id;
     }
 
-    public void setMyId(int myId) {
-        this.myId = myId;
+    public void setId(int id) {
+        this.id = id;
     }
 }
