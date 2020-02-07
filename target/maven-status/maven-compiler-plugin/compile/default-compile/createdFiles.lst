@@ -1,0 +1,7 @@
+lab\controller\BuddyController.class
+lab\model\BuddyInfo.class
+lab\repositories\BuddyInfoRepository.class
+lab\Lab.class
+lab\repositories\AddressBookRepository.class
+lab\model\AddressBook.class
+lab\controller\Controller.class
